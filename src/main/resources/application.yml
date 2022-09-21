@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+  web:
+    resources:
+      static-locations:
+        - classpath:/static
+
+server:
+  port: 8081
+  servlet:
+    session:
+      timeout: 30m
